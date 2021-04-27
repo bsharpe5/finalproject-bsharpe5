@@ -1,0 +1,76 @@
+
+
+main, footer{
+	font-family: garamond, serif;
+}
+
+h1, h2, h3, nav{
+	font-family: helvetica, sans-serif;
+}
+
+
+
+
+ul.mainlist{
+	list-style-image: url("../images/gearicon.png");
+}
+
+div.mainlist{
+	text-align: justify;
+}
+
+ul.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul.navbar > li {
+    display: inline;
+}
+
+ul.navbar > li:not(:last-child)::after {
+    content: "|";
+    margin: 0 .25em;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	width: 20%;
+	border: 1px solid black;
+	background-color: #ffffff;
+	padding: 15px;
+}
+
+
+
+
+
+footer{
+	color: #373276;
+	
+}
+
+img.footerlogo{
+	float: right;
+	padding: 20px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
