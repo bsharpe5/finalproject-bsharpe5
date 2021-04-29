@@ -1,1 +1,13 @@
 
+header, main, footer, nav, body, table, th, td, tr{
+	color: black;
+	background-color: white;
+}
+
+img.imgv{
+	visibility: hidden;
+}
+
+img{
+	visibility: visible;
+}

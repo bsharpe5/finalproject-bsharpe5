@@ -12,7 +12,7 @@ Please Fill In this section:
 your name: Brianna Sharpe
 your student ID: 00533915
 your LCCemail address: bsharpe5@mail.lakelandcc.edu
-the date(s) you worked on the file: 4/23/21
+the date(s) you worked on the file: 4/23/21 thru 4/29/21
 -->
 
 <title>EXWHYZEE CUSTOMER INFORMATION</title>
@@ -20,8 +20,7 @@ the date(s) you worked on the file: 4/23/21
 
 <body>
 	<header>
-		<p><img src="../images/exwhyzeelogo.jpg" alt="logo" title="exwhyzeelogo" height="145" width="400" /></p>
-		<h1>EXWHYZEE CUSTOMER INFORMATION</h1>
+		<p><a href="../exwhyzee.html"><img class="logo" src="../images/exwhyzeelogo.png" alt="logo" title="exwhyzeelogo" height="72" width="200" /></a></p>
 		<p>A Self-Enabling Bifurcated Data-Warehouse Company</p>
 		<p>Address: rue de Coste &middot; 80479 Bourdon</p>
 	</header>
@@ -32,31 +31,65 @@ the date(s) you worked on the file: 4/23/21
 		<li><a href="exwhyzee_catalog.html">Catalog</a></li>
 	</ul>
 </nav>
-	<main>
-	<section>
-	<h2>Content here</h2>
-	<article>
-	<h3>Article header content</h3>
-		<p>Please make this part look nice. The info in the first column is a label. The information in the text box tells you Exactly what name/id we need to finish the code on our end.
+
+<main>
+<section>
+	<h2>Customer Information</h2>
+<article>
+	<h3>Please complete the form below.</h3>
+		<p class="customer">Please make this part look nice. The info in the first column is a label. The information in the text box tells you Exactly what name/id we need to finish the code on our end.
 		However, that information should not display on the page. </p>
-		<form>
-		  <table style="width: 100%">
-		    <tbody>
-		      <tr>
-		        <th scope="row"><label for="salut">Salutation (Miss/Ms/Mrs/Madame (M<sup>me</sup>)/Mx/Mr/Monsieur(M.)/Dr/Prof/Hon/...)</label></th>
-		        <td>
-                <input name="salut" type="text" id="salut" value="name='salut' id='salut'" size="50"></td>
+<form>
+	<table style="width: 100%">
+	<tbody>
+	<tr>
+	<th scope="row">
+	<label for="saluta">Salutation
+	<select name="saluta" id="saluta">
+		<option value="Miss">Miss</option>
+		<option value="Ms">Ms</option>
+		<option value="Mrs">Mrs</option>
+		<option value="Madame">Madame(Mme)</option>
+		<option value="Mx">Mx</option>
+		<option value="Mr">Mr</option>
+		<option value="Monsieur(M.)">Monsieur(M.)</option>
+		<option value="Dr">Dr</option>
+		<option value="Prof">Prof</option>
+		<option value="Hon">Hon</option>
+	</select>
+	</label>
+	</th>
+	<td>
+    <input name="salut" type="text" id="salut" value class="salut" size="50">
+	</td>
 	          </tr>
+			  <tr>
+				<th scope="row"><label for="email"> Email
+				</th>
+				<td>
+				<input name="email" type="text" id="email" size="50">
+				</td>
+			  </tr>
+			  <tr>
+				<th scope="row">
+				<label for="phone"> Phone Number
+				</th>
+				<td>
+				<input name="phone" type="text" id="phone" size="50">
+				</label>
+				</td>
+			   </tr>
 <!-- fill in the rest of the table -->
 	        </tbody>
 	      </table>
+		  <input class="subBtn" type ="submit" id="subBtn" value="Submit Information" />
 		</form>
 		</article>
 	</section>
 	</main>
 	<footer>
 	  <p><small><strong>CONTENT &copy; 2021 EXWHYZEE Inc</strong></small></p>
-		<p><i><small> We are a Self-Enabling Bifurcated Data-Warehouse Company and We Expedite Extensible E-Markets </i></small></p>
+		<p><small> We are a Self-Enabling Bifurcated Data-Warehouse Company and We Expedite Extensible E-MarketsS</small></p>
 		<p><small>WEB DESIGN &copy; 2021 Brianna Sharpe</small></p>
 </footer>
 </body>

@@ -1,7 +1,17 @@
 
 
-main, footer{
+header{
+	text-align: center;
+	padding: 20px;
+}
+
+main, footer {
 	font-family: garamond, serif;
+}
+
+footer{
+	color: #E1CDAD;
+	background-color: #373276;	
 }
 
 h1, h2, h3, nav{
@@ -10,54 +20,79 @@ h1, h2, h3, nav{
 
 
 
+p.indent{
+	text-indent: 25px;
+}
+
+p.customer{
+	display: none;
+}
+
+
 
 ul.mainlist{
 	list-style-image: url("../images/gearicon.png");
 }
 
-div.mainlist{
-	text-align: justify;
+ul.navbar{
+  overflow: hidden;
+  background-color: #373276;
+	
 }
 
-ul.navbar{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	
+ul.navbar a:hover {
+  background-color: #E1CDAD;
+  color: #373276;
+}
+
+ul.navbar a{
+	float: left;
+  display: block;
+  color: #E1CDAD;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 ul.navbar > li {
     display: inline;
+
 }
 
-ul.navbar > li:not(:last-child)::after {
-    content: "|";
-    margin: 0 .25em;
+
+ 
+div.column.middle{
+	width: 75%;
+	float: left;
 }
 
-table, th, td {
+div.column.side{
+	width: 25%;
+	float: left;
+}
+
+div.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+value.salut{
+	visibility: hidden;
+}
+
+
+
+table, th, td, tr {
 	border-collapse: collapse;
 	width: 20%;
 	border: 1px solid black;
 	background-color: #ffffff;
 	padding: 15px;
 }
-
-
-
-
-
-footer{
-	color: #373276;
-	
-}
-
-img.footerlogo{
-	float: right;
-	padding: 20px 20px;
-}
-
-
 
 
 
